@@ -6,10 +6,10 @@ In this example we introduce the <<- operator which can be used to assign a valu
 
 The first function, makeVector creates a special "vector", which is really a list containing a function to
 
-set the value of the vector
-get the value of the vector
-set the value of the mean
-get the value of the mean
+1.set the value of the vector
+2.get the value of the vector
+3.set the value of the mean
+4.get the value of the mean
 makeVector <- function(x = numeric()) {
         m <- NULL
         set <- function(y) {
